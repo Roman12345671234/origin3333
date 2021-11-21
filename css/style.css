@@ -52,6 +52,9 @@ figure {
 a:focus {
     outline: none;
 }
+header.container{
+    horiz-align: center;
+}
 figure {
     line-height: 0;
 }
@@ -1603,4 +1606,9 @@ input:focus ~ .offer-controls-add:after {
 a {
     text-decoration: none;
     color: #766357;
+}
+ul{
+    margin: 10px 10px;
+    padding-left: 150px;
+    padding-top: 70px;
 }
