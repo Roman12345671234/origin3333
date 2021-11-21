@@ -68,8 +68,10 @@ label {
 .clearfix::after {
     display: table;
     clear: both;
+
     content: "";
 }
+
 .container {
     min-width: 768px;
     max-width: 1200px;
@@ -89,7 +91,7 @@ label {
 
     color: #000000;
 
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 26px;
 }
@@ -104,17 +106,16 @@ label {
 }
 
 .menu .menu-active {
-    color: #766357;
+    color: #000000;
 }
 
 .menu .menu-active:hover {
-    color: #604e43;
+    color: #ffffff;
 }
 
 .menu .menu-active:active {
     color: #d6d0cc;
     color: rgba(118, 99, 87, .3);
-    position: fixed;
 }
 
 .filter-price-title,
@@ -165,18 +166,24 @@ label {
 .options span,
 .options-variant {
     text-decoration: none;
+
     color: #000000;
+
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
 }
+
 .options .options-found {
     text-decoration: none;
+
     color: #000000;
+
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
 }
+
 .options-variant {
     color: rgba(0, 0, 0, .3);
     border-bottom: 1px dotted #81b3d2;
@@ -205,7 +212,6 @@ label {
 .country-description-about,
 .country-description-subtitle {
     color: #000000;
-
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -258,9 +264,9 @@ label {
     text-transform: uppercase;
 
     color: #ffffff;
-
+margin-right: 300px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 26px;
 }
 
@@ -322,8 +328,8 @@ label {
     color: #ffffff;
 
     font-family: "wisdom_scriptregular", sans-serif, Arial;
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .menu {
@@ -335,10 +341,8 @@ label {
 .menu a {
     display: inline-block;
 
-    width: 20%;
     padding-top: 15px;
     padding-bottom: 15px;
-
     text-align: center;
     vertical-align: top;
 }
@@ -993,13 +997,11 @@ footer {
 }
 
 .card {
-    position: absolute;
 
     padding-top: 70px;
     padding-bottom: 90px;
 
     text-align: center;
-
     background: #647e94 0 20% no-repeat url(../img/main-page-logo.jpg);
     background-size: 100% auto;
 }
@@ -1014,7 +1016,7 @@ footer {
 
     content: "";
 
-    background: 0 0 no-repeat url(../img/logo-shape.png);
+
     background-size: 100% 57px;
 }
 
@@ -1601,11 +1603,22 @@ input:focus ~ .offer-controls-add:after {
 
     background-color: transparent;
 }
-a {
+a{
+    margin-left: 85px;
+    margin-top: 10px;
+    background-color: #81b3d2;
     text-decoration: none;
-    color: #766357;
+    font-size: 40px;
 }
 ul{
-    padding-bottom: 20px;
-    padding-top: 0;
+    margin-left: 150px;
+    margin-top: 1px;
+    margin-bottom: 90px;
+}
+p{
+    font-style:italic;
+    color: #000000;
+}
+p:hover {
+    color: #ffff00;
 }
