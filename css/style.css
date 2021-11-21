@@ -991,12 +991,10 @@ footer {
 }
 
 .card {
-    position: relative;
+    position: absolute;
     padding-top: 0;
     padding-bottom: 0;
-width: 1200px;
     text-align: center;
-
     background: #647e94 0 20% no-repeat url(../img/main-page-logo.jpg);
     background-size: 100% auto;
 }
