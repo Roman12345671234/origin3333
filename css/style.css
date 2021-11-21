@@ -991,7 +991,7 @@ footer {
 }
 
 .card {
-    position: absolute;
+    position: relative;
     padding-top: 70px;
     padding-bottom: 90px;
 
