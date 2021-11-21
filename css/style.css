@@ -1604,7 +1604,7 @@ input:focus ~ .offer-controls-add:after {
     background-color: transparent;
 }
 a{
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 10px;
     background-color: #81b3d2;
     text-decoration: none;
