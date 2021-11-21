@@ -993,7 +993,7 @@ footer {
 }
 
 .card {
-    position: relative;
+    position: absolute;
 
     padding-top: 70px;
     padding-bottom: 90px;
@@ -1607,5 +1607,5 @@ a {
 }
 ul{
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 0;
 }
