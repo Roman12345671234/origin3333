@@ -52,7 +52,9 @@ figure {
 a:focus {
     outline: none;
 }
-
+header.container{
+    horiz-align: center;
+}
 figure {
     line-height: 0;
 }
