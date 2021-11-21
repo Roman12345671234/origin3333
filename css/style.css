@@ -1610,6 +1610,9 @@ a{
     text-decoration: none;
     font-size: 40px;
 }
+a.hover{
+    color: white;
+}
 .ul{
     margin-left: 100px;
     margin-top: 10px;
