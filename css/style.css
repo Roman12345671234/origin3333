@@ -512,6 +512,7 @@ input:checked + .filter-variant:before {
 
     background-color: rgba(255, 255, 255, .3);
 }
+
 .filter-price-scale:after {
     position: absolute;
     top: 9px;
@@ -991,13 +992,31 @@ footer {
 }
 
 .card {
-    position: absolute;
-    padding-top: 0;
-    padding-bottom: 0;
+    position: relative;
+
+    padding-top: 70px;
+    padding-bottom: 90px;
+
     text-align: center;
+
     background: #647e94 0 20% no-repeat url(../img/main-page-logo.jpg);
     background-size: 100% auto;
 }
+
+.card:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 57px;
+
+    content: "";
+
+    background: 0 0 no-repeat url(../img/logo-shape.png);
+    background-size: 100% 57px;
+}
+
 .card-subgreetings {
     position: relative;
     top: -17px;
@@ -1119,6 +1138,21 @@ footer {
     width: 50px;
     margin-bottom: 20px;
 }
+
+.benefits-block-subtitle:after,
+.city-description-subtitle:after {
+    position: absolute;
+    top: 9px;
+    right: 0;
+
+    width: 9px;
+    height: 2px;
+
+    content: "";
+
+    background-color: #ffffff;
+}
+
 .benefits-block-subtitle:before,
 .city-description-subtitle:before {
     position: absolute;
