@@ -1122,21 +1122,6 @@ footer {
     width: 50px;
     margin-bottom: 20px;
 }
-
-.benefits-block-subtitle:after,
-.city-description-subtitle:after {
-    position: absolute;
-    top: 9px;
-    right: 0;
-
-    width: 9px;
-    height: 2px;
-
-    content: "";
-
-    background-color: #ffffff;
-}
-
 .benefits-block-subtitle:before,
 .city-description-subtitle:before {
     position: absolute;
