@@ -512,8 +512,18 @@ input:checked + .filter-variant:before {
 
     background-color: rgba(255, 255, 255, .3);
 }
+.filter-price-scale:after {
+    position: relative;
+    top: 9px;
+    right: 15%;
+    left: 0;
 
+    height: 2px;
 
+    content: "";
+
+    background-color: #ffffff;
+}
 
 .filter-scale-toggle {
     position: absolute;
