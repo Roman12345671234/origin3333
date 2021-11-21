@@ -1604,3 +1604,7 @@ a {
     text-decoration: none;
     color: #766357;
 }
+ul{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
